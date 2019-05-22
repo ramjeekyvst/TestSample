@@ -32,21 +32,21 @@ formatter.match({
   "location": "stepDefinition.ChromeDriver()"
 });
 formatter.result({
-  "duration": 9997600396,
+  "duration": 6329530339,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.ReadPropertyFromPropertiesFile()"
 });
 formatter.result({
-  "duration": 11753100740,
+  "duration": 19683865014,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.VerifyTitle()"
 });
 formatter.result({
-  "duration": 6398813,
+  "duration": 8783404,
   "status": "passed"
 });
 formatter.scenario({
@@ -95,28 +95,28 @@ formatter.match({
   "location": "stepDefinition.selectRegion()"
 });
 formatter.result({
-  "duration": 8466749050,
+  "duration": 24112089635,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.searchDoctorByZipCode(DataTable)"
 });
 formatter.result({
-  "duration": 18725554282,
+  "duration": 20439498098,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.searchForGynDoctorAndclikedOurPregnancyLink()"
 });
 formatter.result({
-  "duration": 7305436719,
+  "duration": 9697210194,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.selectSevenWeekFromTrimesterAndNavigatedToSignInPage()"
 });
 formatter.result({
-  "duration": 56352407959,
+  "duration": 64953063129,
   "status": "passed"
 });
 });
