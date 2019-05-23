@@ -9,8 +9,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="src/test/resources",
 		glue="stepDefinition",
-		tags="@all",
-		plugin= {"pretty","html:target/cucumberReport","junit:target/cucumber.xml"})
+		tags="@SmokeTest",
+		plugin= {"pretty","html:target/cucumberReport","junit:target/cucumber.xml","json:target/jsonReport.json"})
 
 public class RunnerTest {
 	

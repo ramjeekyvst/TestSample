@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="118.149245">
+<testcase classname="Search doctor" name="Find Pregnacy doctor and navigate to Sign In Page" time="118.149245">
+<system-out><![CDATA[Given Set Property for Chrome driver and initialized the Webdriver..........passed
+When Get the property and launch the URL....................................passed
+Then Validate Title of the Website..........................................passed
+Given User is on Kaiser Login landing Page,clicked on the Doctor & Location Page link and selected region as California_Northern.passed
+When User is on Find Doctors and Locations Page and entered below ZIPCODE and clicked on the Search button.passed
+Then User is on Doctor Search results page and Search for GYN doctor........passed
+And User is on Your Pregnancy Page and selected seven week from 1stTrimetser Option and naviagted Sign In Page.passed
+]]></system-out>
+</testcase>
+</testsuite>

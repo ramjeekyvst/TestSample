@@ -1,0 +1,129 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5425157758,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Set Property for Chrome driver and initialized the Webdriver",
+            "match": {
+              "location": "stepDefinition.ChromeDriver()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9851029788,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Get the property and launch the URL",
+            "match": {
+              "location": "stepDefinition.ReadPropertyFromPropertiesFile()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7017873,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Validate Title of the Website",
+            "match": {
+              "location": "stepDefinition.VerifyTitle()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Find Pregnacy doctor and navigate to Sign In Page",
+        "description": "",
+        "id": "search-doctor;find-pregnacy-doctor-and-navigate-to-sign-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9860331907,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on Kaiser Login landing Page,clicked on the Doctor \u0026 Location Page link and selected region as California_Northern",
+            "match": {
+              "location": "stepDefinition.selectRegion()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25199871921,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Find Doctors and Locations Page and entered below ZIPCODE and clicked on the Search button",
+            "match": {
+              "location": "stepDefinition.searchDoctorByZipCode(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "94588"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8566076616,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Doctor Search results page and Search for GYN doctor",
+            "match": {
+              "location": "stepDefinition.searchForGynDoctorAndclikedOurPregnancyLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59239758918,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is on Your Pregnancy Page and selected seven week from 1stTrimetser Option and naviagted Sign In Page",
+            "match": {
+              "location": "stepDefinition.selectSevenWeekFromTrimesterAndNavigatedToSignInPage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Search doctor",
+    "description": "",
+    "id": "search-doctor",
+    "keyword": "Feature",
+    "uri": "SearchTest.feature"
+  }
+]

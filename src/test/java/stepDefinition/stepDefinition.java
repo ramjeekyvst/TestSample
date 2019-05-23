@@ -34,17 +34,17 @@ public class stepDefinition {
 	
 	@Given("^Set Property for Chrome driver and initialized the Webdriver$")
 	public void ChromeDriver() throws Throwable {
-		//System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+		/*System.setProperty("webdriver.chrome.driver","C:\\Selenium\\chromedriver_win32\\chromedriver.exe");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("start-maximized"); // open Browser in maximized mode
 		options.addArguments("disable-infobars"); // disabling infobars
 		options.addArguments("--disable-extensions"); // disabling extensions
 		options.addArguments("--disable-gpu"); // applicable to windows os only
 		options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-		options.addArguments("--no-sandbox"); // Bypass OS security model
+		options.addArguments("--no-sandbox"); // Bypass OS security model  */
 		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver(options);
-		//driver=new ChromeDriver();
+		//WebDriver driver = new ChromeDriver(options);
+		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();    
